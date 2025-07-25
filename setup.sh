@@ -41,4 +41,8 @@ find "$SOURCE_DIR" -type f | while read -r src_file; do
   fi
 done
 
+# Set SDDM as the display manager
+echo "🖥️  Setting SDDM as the display manager..."
+sudo systemctl enable sddm
+
 echo "🎉 All config files copied successfully."

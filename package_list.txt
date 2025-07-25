@@ -4,6 +4,9 @@ sway
 # Wallpaper tool
 swaybg
 
+# Display manager
+sddm
+
 # Editor for config and text files
 vim
 
