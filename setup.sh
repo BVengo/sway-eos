@@ -45,4 +45,8 @@ done
 echo "🖥️  Setting SDDM as the display manager..."
 sudo systemctl enable sddm
 
+# Add user to the `input` group for waybar and other input devices
+echo "👤 Adding user to input group..."
+sudo usermod -aG input "$USER"
+
 echo "🎉 All config files copied successfully."
