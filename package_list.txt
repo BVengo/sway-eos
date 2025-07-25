@@ -1,0 +1,68 @@
+# Tiling Wayland compositor
+sway
+
+# Wallpaper tool
+swaybg
+
+# Editor for config and text files
+vim
+
+# File manager
+nemo
+
+# App launcher (Wayland version)
+rofi-wayland
+
+# Idle management daemon
+swayidle
+
+# Screen locker
+swaylock
+
+# Authentication agent (request elevation)
+polkit-kde-agent
+
+# Control screen brightness from CLI
+brightnessctl
+
+# Terminal emulator
+kitty
+
+# Terminal multiplexer
+tmux
+
+# Screenshot utility (for Wayland)
+grim
+
+# Region selector (used with grim)
+slurp
+
+# Notification daemon
+mako
+
+# File system event monitoring
+inotify-tools
+
+# Customizable status bar
+waybar
+
+# Font Awesome icons
+otf-font-awesome
+
+# Nerd fonts for icons
+ttf-arimo-nerd
+
+# Noto fonts for text rendering
+noto-fonts
+
+# Portal backend for file pickers (GTK)
+xdg-desktop-portal-gtk
+
+# Portal backend for Wayland (Sway)
+xdg-desktop-portal-wlr
+
+# Helpful scripts and tools for sway
+sway-contrib
+
+# Clipboard manager for Wayland
+wl-clipboard
