@@ -33,6 +33,12 @@ find "$SOURCE_DIR" -type f | while read -r src_file; do
 
   cp "$src_file" "$dest_file"
   echo "✅ Copied: $rel_path"
+
+  # Make copied files executable if they are scripts
+  if [[ "$src_file" == *.sh ]]; then
+    chmod +x "$dest_file"
+    echo "🔧 Made executable: $dest_file"
+  fi
 done
 
 echo "🎉 All config files copied successfully."
