@@ -31,8 +31,8 @@ grim
 # Region selector (used with grim)
 slurp
 
-# Notification daemon
-mako
+# Notification centre
+swaync
 
 # File system event monitoring
 inotify-tools
