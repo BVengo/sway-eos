@@ -72,7 +72,7 @@ bindsym $mod+Shift+q kill
 floating_modifier $mod normal
 
 # Disable auto-focus on mouse hover
-mouse_warping none
+focus_follows_mouse no
 
 # Reload the configuration file
 bindsym $mod+Shift+c reload
