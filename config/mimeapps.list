@@ -1,0 +1,29 @@
+[Default Applications]
+inode/directory=nemo.desktop
+image/jpeg=org.gnome.org.gnome.Shotwell-Viewer.desktop
+image/png=org.gnome.Shotwell-Viewer.desktop
+image/gif=org.gnome.Shotwell-Viewer.desktop
+image/bmp=org.gnome.Shotwell-Viewer.desktop
+image/webp=org.gnome.Shotwell-Viewer.desktop
+image/tiff=org.gnome.Shotwell-Viewer.desktop
+image/x-xbitmap=org.gnome.Shotwell-Viewer.desktop
+image/x-portable-pixmap=org.gnome.Shotwell-Viewer.desktop
+image/x-portable-bitmap=org.gnome.Shotwell-Viewer.desktop
+image/x-portable-graymap=org.gnome.Shotwell-Viewer.desktop
+image/x-pcx=org.gnome.Shotwell-Viewer.desktop
+image/x-tga=org.gnome.Shotwell-Viewer.desktop
+
+[Added Associations]
+inode/directory=nemo.desktop;
+image/jpeg=org.gnome.Shotwell-Viewer.desktop;
+image/png=org.gnome.Shotwell-Viewer.desktop;
+image/gif=org.gnome.Shotwell-Viewer.desktop;
+image/bmp=org.gnome.Shotwell-Viewer.desktop;
+image/webp=org.gnome.Shotwell-Viewer.desktop;
+image/tiff=org.gnome.Shotwell-Viewer.desktop;
+image/x-xbitmap=org.gnome.Shotwell-Viewer.desktop;
+image/x-portable-pixmap=org.gnome.Shotwell-Viewer.desktop;
+image/x-portable-bitmap=org.gnome.Shotwell-Viewer.desktop;
+image/x-portable-graymap=org.gnome.Shotwell-Viewer.desktop;
+image/x-pcx=org.gnome.Shotwell-Viewer.desktop;
+image/x-tga=org.gnome.Shotwell-Viewer.desktop;

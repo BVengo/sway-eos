@@ -7,9 +7,6 @@ swaybg
 # Editor for config and text files
 vim
 
-# File manager
-nemo
-
 # App launcher (Wayland version)
 rofi-wayland
 
@@ -25,13 +22,7 @@ polkit-kde-agent
 # Control screen brightness from CLI
 brightnessctl
 
-# Terminal emulator
-kitty
-
-# Terminal multiplexer
-tmux
-
-# Screenshot utility (for Wayland)
+# Screenshot utility
 grim
 
 # Region selector (used with grim)
@@ -66,3 +57,15 @@ sway-contrib
 
 # Clipboard manager for Wayland
 wl-clipboard
+
+# Terminal emulator
+kitty
+
+# Terminal multiplexer
+tmux
+
+# File manager
+nemo
+
+# Image viewer
+shotwell
