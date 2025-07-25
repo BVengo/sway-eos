@@ -34,7 +34,7 @@ sudo pacman -S --needed --noconfirm \
     xdg-desktop-portal-gtk \ # Portal backend for file pickers (GTK)
     xdg-desktop-portal-wlr \ # Portal backend for Wayland (Sway)
     sway-contrib \           # Helpful scripts and tools for sway
-    wl-clipboard \           # Clipboard manager for Wayland
+    wl-clipboard             # Clipboard manager for Wayland
 
     ### 3. Copy Config Files
     echo "📁 Syncing configuration files to ~/.config..."
