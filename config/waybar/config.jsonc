@@ -21,7 +21,7 @@
         "memory",
         "backlight",
         "battery",
-        "custom/notification"
+        "custom/swaync"
     ],
     // Modules configuration
     // "sway/workspaces": {
@@ -154,8 +154,8 @@
         ],
         "ignore-monitor": true
     },
-    "custom/notification": {
-        "tooltip": false,
+    "custom/swaync": {
+        "tooltip": true,
         "format": "{} {icon}",
         "format-icons": {
         "notification": "<span foreground='red'><sup></sup></span>",

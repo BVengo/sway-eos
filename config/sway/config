@@ -199,3 +199,4 @@ bindsym {
 
 ### Autostart Applications
 exec "/usr/lib/polkit-kde-authentication-agent-1"
+exec swaync

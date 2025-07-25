@@ -75,7 +75,8 @@ button:hover {
 #pulseaudio,
 #tray,
 #mode,
-#mpd {
+#mp,
+#custom-swaync {
     padding: 0 10px;
     color: #ffffff;
 }
@@ -213,6 +214,6 @@ label:focus {
     background-color: #0069d4;
 }
 
-#custom-notification {
+#custom-swaync {
   font-family: "NotoSansMono Nerd Font";
 }
