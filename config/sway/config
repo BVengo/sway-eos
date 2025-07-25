@@ -6,7 +6,7 @@ set $mod Mod4
 set $term kitty
 
 # Application launcher
-set $menu "~/.config/syscustom/rofi-toggle.sh"
+set $menu "~/.config/rofi/toggle.sh"
 
 # Screen capture tool
 set $screenshot /usr/share/sway-contrib/grimshot
@@ -55,14 +55,14 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 
 ### Key bindings
 # Basics:
+    # Start your launcher
+    bindcode --release 133 exec $menu
+
     # Start a terminal
     bindsym $mod+Return exec $term
 
     # Kill focused window
     bindsym $mod+Shift+q kill
-
-    # Start your launcher
-    bindcode --release 133 exec $menu
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -180,8 +180,6 @@ bindsym $mod+r mode "resize"
     # Special keys to adjust brightness via brightnessctl
     bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
-    # Special key to take a screenshot with grim
-    bindsym Print exec grim
 
 ### Status Bar: using waybar
 bar {
