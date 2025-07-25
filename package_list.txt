@@ -25,6 +25,9 @@ polkit-kde-agent
 # Control screen brightness from CLI
 brightnessctl
 
+# Control bluetooth
+blueman
+
 # Screenshot utility
 grim
 

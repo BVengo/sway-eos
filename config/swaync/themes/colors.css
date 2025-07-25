@@ -1,0 +1,8 @@
+:root {
+  --text: #ECEFF4;             /* @foreground */
+  --background: #2E3440;       /* Base background */
+  --background-alt: #3B4252;   /* @color1 */
+  --urgent: #BF616A;           /* @color2 */
+  --selected: #88C0D0;         /* @color3 */
+  --hover: #81A1C1;            /* @color5 */
+}
